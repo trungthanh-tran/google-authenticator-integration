@@ -1,0 +1,12 @@
+{
+    "name": "tttran/google-authenticator-integration",
+    "require": {
+        "endroid/qr-code": "^4.8"
+    },
+    "authors": [
+        {
+            "name": "thanhtt",
+            "email": "thanhtt@vgpjsc.vn"
+        }
+    ]
+}
