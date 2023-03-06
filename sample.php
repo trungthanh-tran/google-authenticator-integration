@@ -33,7 +33,6 @@ function store_png($username, $url, $saved_path) {
     $result->saveToFile($saved_path);
 }
 
-
 # Generate keys. Save username and associated key in database and
 $key = $google_auth->createSecret(32);
 
@@ -57,8 +56,4 @@ while(true) {
         echo("Not verfied!!\n");
     }
 }
-
-
-
-
 ?>
